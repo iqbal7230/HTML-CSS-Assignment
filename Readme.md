@@ -1,3 +1,5 @@
-## Screenshot of web page
+## Demo Video
 
-!Screencast from 2026-01-27 15-56-29.webm
+  <video controls width="800">
+    <source src="Screencast from 2026-01-27 15-56-29.webm" type="video/webm">
+  </video>

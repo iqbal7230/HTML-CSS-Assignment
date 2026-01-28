@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Bug Report</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                TO THE NEW
+            </span>
+            <ul>
+                <li>Home</li>
+                <li>Quick Help</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bug-title">
+            <h1>Bug Report</h1>
+        </div>
+        
+        <form>
+            <label for="">Title:</label>
+            <input type="text" required>
+            <label for="">Description</label>
+            <textarea id="bug-description" name="bug-description" rows="4" cols="50" required></textarea><br><br>
+
+             <label for="">operating system</label>
+            <select name="operating-system" required class="dropdown">
+                <option value="">Select OS</option>
+                <option value="windows">Windows</option>
+                <option value="macos">MacOS</option>
+                <option value="linux">Linux</option>
+                <option value="other">Other</option>
+            </select>
+
+
+            <label for="">Product</label>
+            <select name="product" required class="dropdown">
+                <option value="">Select Product</option>
+                <option value="formoid">Formoid</option>
+                <option value="ubuntu">Ubuntu</option>
+                <option value="kali linux">Kali Linux</option>
+            </select>
+
+            <label for="">version</label>
+            <input type="text"> 
+
+            <div class="license">
+            <label for="">License</label id="license">
+            <input type="radio" name="" id="license">Free
+            <input type="radio" name="" id="license">Business
+            </div>
+        
+            <label for="">Severity</label>
+            <select name="Severity" class="dropdown">
+                <option value="critical">critical</option>
+                <option value="high">high</option>
+                <option value="medium">medium</option>
+                <option value="low">low</option>
+
+            </select>
+
+            <label for="">Attachments:</label>
+            <input type="file" multiple value="Choose file">
+
+
+            <input id="send" type="submit" value="Send">
+        </form>
+    </main>
+</body>
+</html>

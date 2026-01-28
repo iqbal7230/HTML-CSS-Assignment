@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    padding: 40px;
+}
+
+.blog-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    border: 1px solid #dbe3ff;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-header h1 {
+    color: #1f2b7b;
+    margin-bottom: 8px;
+}
+
+.blog-header p {
+    font-size: 14px;
+    color: #5f6f99;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+    gap: 24px;
+}
+
+.blog-card.large {
+    border: 1px solid #e3e9ff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.blog-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.blog-img-right img {
+    width: 100%;
+    height: 100%;
+    
+    display: block;
+    max-height: 180px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    color: #1f2b7b;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #6b7394;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    color: #3f5cff;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 14px;
+}
+
+.meta {
+    border-top: 1px solid #e6ebff;
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 14px;
+    font-size: 12px;
+    color: #6b7394;
+}
+
+.right-column {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    gap: 16px;
+}
+
+.blog-card.small {
+    border: 1px solid #e3e9ff;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 90px auto;
+    overflow: hidden;
+}
+
+.small-image {
+    background: #f1f4fb;
+    position: relative;
+}
+
+.small-image::after {
+    content: "🖼";
+    font-size: 24px;
+    color: #9aa4c7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.small-content {
+    padding: 14px;
+}
+
+.small-content h4 {
+    color: #1f2b7b;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.small-content p {
+    font-size: 13px;
+    color: #6b7394;
+    margin-bottom: 10px;
+}
+
+.small-footer {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-size: 12px;
+    color: #6b7394;
+}
+
+.small-footer .arrow {
+    text-align: right;
+    font-size: 16px;
+    color: #3f5cff;
+}

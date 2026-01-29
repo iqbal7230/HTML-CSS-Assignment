@@ -1,3 +1,7 @@
 ## Assignment Video
 
-[![Demo video](./Screencast%20from%202026-01-29%2014-30-06.mp4)](VIDEO_LINK)
+
+
+
+https://github.com/user-attachments/assets/7619ec68-3f57-453f-a210-c4f7a178347a
+
